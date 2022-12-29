@@ -20,6 +20,7 @@ function App() {
             {pizzas.map((el) => {
               return (
                 <PizzaBlock
+                  key={el.id}
                   id={el.id}
                   imageUrl={el.imageUrl}
                   title={el.title}
